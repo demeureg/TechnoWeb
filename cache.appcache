@@ -1,0 +1,44 @@
+CACHE MANIFEST
+
+#version 1.0 5-19-2013
+
+CACHE:
+
+#sounds
+data/themes/star wars/sounds/victoire.mp3
+data/themes/star wars/sounds/rebond.mp3
+data/themes/bacon story/sounds/victoire.mp3
+data/themes/bacon story/sounds/rebond.mp3
+
+#images
+data/themes/star wars/images/player_sprite.png
+data/themes/star wars/images/level1_background.png
+data/themes/star wars/images/level2_background.png
+data/themes/star wars/images/level3_background.png
+data/themes/bacon story/images/player_sprite.png
+data/themes/bacon story/images/level1_background.png
+data/themes/bacon story/images/level2_background.png
+data/themes/bacon story/images/level3_background.png
+
+#internal HTML documents
+index.html
+
+#style sheets
+css/style.css
+
+#style sheet images
+
+
+#javascript files
+js/common.js
+js/soundmanager2.js
+js/offlinegame.js
+js/onlinegame.js
+js/socket.io.min.js
+js/main.js
+
+#other
+js/soundmanager2.swf
+
+NETWORK:
+*

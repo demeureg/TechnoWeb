@@ -1,0 +1,49 @@
+<html lang=fr manifest="cache.appcache">
+<head>
+	<title>Jeu en ligne</title>
+	<script src="js/common.js"></script>
+	<script src="js/soundmanager2.js"></script>
+	<script src="js/offlinegame.js"></script>
+	<script src="js/onlinegame.js"></script>
+	<script src="js/socket.io.min.js"></script>
+	<script src="js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id ="main">
+		<div id="banner">
+			<div id="gameinfos">
+				<div id="theme">
+				</div>
+				<div id="topscores">
+				</div>
+			</div>
+			<div id="rooms">
+			</div>
+			<div id="status">
+			</div>
+		</div>
+		<div id="center">
+			<div id="players">
+			</div>
+			<div id="game">
+				<canvas id="backgroundCanvas" width="800" height="600">
+					Votre navigateur ne supporte pas les canvas!
+				</canvas>
+				<canvas id="playerCanvas" width="800" height="600">
+				</canvas>
+				<canvas id="uiCanvas" width="800" height="600">
+				</canvas>
+			</div>
+			<div id="chat">
+				<div id="conversation">
+				</div>
+				<div id="input">
+					<input type="text" id="message" />
+					<input type="button" value="Send" id="send" disabled />	
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

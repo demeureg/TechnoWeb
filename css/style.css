@@ -1,0 +1,99 @@
+body {
+	font-family: Arial;
+	font-size: 18px;
+}
+
+canvas {
+	position: absolute;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.message {
+	font-size: 14px;
+}
+
+#main {
+	width: 1280;
+	margin: auto;
+	border: 2px solid black;
+}
+
+#backgroundCanvas {
+	z-index: 1;
+}
+
+#banner {
+	height: 50;
+	border-bottom : 2px solid black;
+}
+
+#center {
+	height: 600px;		
+}
+
+#chat {
+	float: right;
+}
+
+#conversation {
+	width: 302px;
+	padding: 2px;
+}
+
+#playerCanvas {
+	z-index: 2;
+}
+
+#uiCanvas {
+	z-index: 3;
+}
+
+#message {
+	width: 230px;
+}
+
+#game {
+	width: 800px;
+	margin-left: 170px;
+}
+
+#gameinfos {
+	float: left;
+}
+
+#theme {
+	padding: 14px;
+	float : left;
+	border-right: 2px solid black; 
+}
+
+#input {
+	position: fixed;
+	margin-bottom: 0px;
+	padding: 2 11 2 11;
+	border-top: 2px solid black;
+}
+
+#players {
+	width: 166px;
+	padding: 2px;
+	float: left;
+}
+
+#status {
+	float: right;
+	padding: 15px;
+	border-left: 2px solid black; 
+}
+
+#topscores {
+	padding: 15px;
+	float : right;
+	border-right: 2px solid black; 
+}
+
+#rooms {
+	padding: 15px;
+	float: left;
+}
